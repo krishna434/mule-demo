@@ -19,7 +19,8 @@ output application/json
 payload]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
-		<logger level="INFO" doc:name="Logger" doc:id="208d44e9-3f53-4bf9-8740-33bf5de744c7" message=":::::::::::::::::::::::::::#[payload]"/>
+		<logger level="INFO" doc:name="Logger" doc:id="208d44e9-3f53-4bf9-8740-33bf5de744c7" message="::::::#[payload]"/>
+		<logger level="INFO" doc:name="Logger" doc:id="208d44e9-3f53-4bf9-8740-33bf5de744c7" message="::::::#[payload."ram"]"/>
 	
 </flow>
 </mule>
